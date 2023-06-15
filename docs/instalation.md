@@ -1,5 +1,6 @@
 # Instalação
-lorem
+
+A instalação do convutell é muito simples, podendo ser adicionado ao servidores linux e windows através do docker.
 
 ## Intalado apartir do github
 
