@@ -20,7 +20,9 @@ Executar o servidor web com o comando
 
 ## Instalaçaõ local via Docker
 
-Configure o arquivo Dockerfile para adequar a configuração ideal do seu ambiente. Esta implementação do projeto para a imagem docker está em desevolvimento, portanto cabe avaliar a viabilidade das configuração dispostas.
+Para seeguir com a instação via docker é necessário possuir o recurso [instalado](https://docs.docker.com/engine/install/ubuntu/). 
+
+Em seguida configure o arquivo Dockerfile para adequar a configuração ideal do seu ambiente. Esta implementação do projeto para a imagem docker está em desevolvimento, portanto cabe avaliar a viabilidade das configuração dispostas.
 
 * `docker build -t nome_do_projeto:latest .`. 
 
