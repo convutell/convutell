@@ -22,7 +22,3 @@ extra:
       link: https://github.com/convutell/autconvutell
     - icon: fontawesome/brands/twitter
       link: https://www.linkedin.com/in/clayttonsilva/
-
-[build]
-  command = "mkdocs build"
-  publish = "site"

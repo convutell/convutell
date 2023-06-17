@@ -1,5 +1,8 @@
 # Bemvindo ao convutell
 
+![Texto alternativo](assets/docs/banner1.png)
+
+
 Este é o guia de documentação do Convutell, uma ferramenta de automatização de scripts Python e SQL, desenvolvida utilizando as tecnologias Python, Docker, FastAPI e MongoDB. O Convutell é ideal para tarefas de engenharia de dados, RPA (Automação de Processos Robóticos) e ETL (Extração, Transformação e Carga).
 
 ## Comando para executar localmente
