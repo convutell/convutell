@@ -6,7 +6,17 @@ theme:
   palette:
         primary: 'black'
         accent: 'green'
-  
+  features:
+    - navigation.sections
+  features:
+    - header.autohide
+    - announce.dismiss
+
+plugins:
+  - search:
+      lang: pt-br
+
+
 extra:
   alternate:
     - name: English
@@ -17,8 +27,11 @@ extra:
       lang: de
   social:
     - icon: fontawesome/brands/linkedin 
-      link: https://www.linkedin.com/in/clayttonsilva/
+      link: https://www.linkedin.com/company/convutell/?viewAsMember=true
     - icon: fontawesome/brands/github
       link: https://github.com/convutell/autconvutell
     - icon: fontawesome/brands/twitter
-      link: https://www.linkedin.com/in/clayttonsilva/
+      link: https://twitter.com/convutell
+  generator: false
+
+repo_url: https://github.com/convutell/autconvutell
