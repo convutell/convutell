@@ -7,8 +7,7 @@ Este é o guia de documentação do Convutell, uma ferramenta de automatização
 
 ## Comando para executar localmente
 
-* `docker build -t nome_do_projeto:latest .` -  Constrói a imagem do projeto.
-* `docker run -d -p 8000:8000 nome_do_projeto:latest` - Inicia o servidor de documentação com recarregamento em tempo real.
+* `sudo docker-compose up -d` -  Construir o container com base no arquivo docker-compose.yml.
 
 ## Estrutura do projeto
 

@@ -22,13 +22,10 @@ Executar o servidor web com o comando
 
 Para seeguir com a instação via docker é necessário possuir o recurso [instalado](https://docs.docker.com/engine/install/ubuntu/). 
 
-Em seguida configure o arquivo Dockerfile para adequar a configuração ideal do seu ambiente. Esta implementação do projeto para a imagem docker está em desevolvimento, portanto cabe avaliar a viabilidade das configuração dispostas.
+Em seguida configure o arquivo docker-compose.yml para adequar a configuração ideal do seu ambiente. Esta implementação do projeto para a imagem docker está em desevolvimento, portanto cabe avaliar a viabilidade das configuração dispostas.
 
-* `docker build -t nome_do_projeto:latest .`. 
+* `docker docker-compose up -d`. 
 
-Use o comando abaixo para inicar o seu container.
-
-* `docker run -d -p 8000:8000 nome_do_projeto:latest`.
 
 Optamos por utilizar o Supervisor para monitoramento e controle dos nossos processos. Tanto a API como Processo de ETL será monitorados pelo Supervisor. Toda a configuração será passada para o controle do Supervidor através do arquivo supervisord.conf.
 
